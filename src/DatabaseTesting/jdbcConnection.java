@@ -25,11 +25,11 @@ public class jdbcConnection {
 		
 		while(rs.next())
 		{
-			//System.out.println(rs.getString("username"));
-			//System.out.println(rs.getString("password"));
+			System.out.println(rs.getString("username"));
+			System.out.println(rs.getString("password"));
 			
-			//driver.findElement(By.xpath(".//*[@id='username']")).sendKeys(rs.getString("username"));
-			//driver.findElement(By.xpath(".//*[@id='password']")).sendKeys(rs.getString("password"));
+
+
 		}
 		
 	}
