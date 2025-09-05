@@ -19,7 +19,7 @@ public class jdbcConnection {
 		  "jdbc:mysql://"+localhost+":"3306+"/demo";
 		 */
 		
-		System.out.print("Develop Branch");
+		System.out.print("Main Branch");
 		
 		Statement s = con.createStatement();
 	
