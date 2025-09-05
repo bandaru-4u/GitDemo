@@ -20,7 +20,10 @@ public class jdbcConnection {
 		 */
 		
 		Statement s = con.createStatement();
-		
+	
+		int a=10;
+		int b=20;
+		String a1="A";
 	
 	}
 
