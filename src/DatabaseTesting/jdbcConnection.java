@@ -2,7 +2,6 @@ package DatabaseTesting;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -21,17 +20,8 @@ public class jdbcConnection {
 		 */
 		
 		Statement s = con.createStatement();
-		ResultSet rs = s.executeQuery("select * from credentials where scenario ='rewardscard");
 		
-		while(rs.next())
-		{
-			System.out.println(rs.getString("username"));
-			System.out.println(rs.getString("password"));
-			
-
-
-		}
-		
+	
 	}
 
 }
